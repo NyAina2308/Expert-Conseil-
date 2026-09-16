@@ -14,29 +14,12 @@
   box-shadow: var(--shadow);
 }
 
-.entity-card__mark {
-  width: 56px;
-  height: 56px;
-  border-radius: 16px;
+.entity-card__logo {
+  height: 64px;
+  max-width: 100%;
+  width: auto;
   margin: 0 auto 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.entity-card--1 .entity-card__mark {
-  background: var(--navy);
-}
-
-.entity-card--2 .entity-card__mark {
-  background: var(--blue);
-}
-
-.entity-card--3 .entity-card__mark {
-  background: var(--teal);
+  object-fit: contain;
 }
 
 .entity-card__tag {

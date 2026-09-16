@@ -35,7 +35,11 @@ export function GroupeCamoi() {
           </div>
           <div className="entities">
             <div className="entity-card entity-card--1 card-pattern">
-              <div className="entity-card__mark">EC</div>
+              <img
+                className="entity-card__logo"
+                src="/logo-expert-conseils.png"
+                alt="Logo Expert Conseils"
+              />
               <span className="entity-card__tag">Votre interlocuteur</span>
               <h3>Expert Conseils</h3>
               <p>
@@ -44,7 +48,11 @@ export function GroupeCamoi() {
               </p>
             </div>
             <div className="entity-card entity-card--2 card-pattern">
-              <div className="entity-card__mark">CE</div>
+              <img
+                className="entity-card__logo"
+                src="/logo-camoi.png"
+                alt="Logo Camoi Expertise 3.0"
+              />
               <span className="entity-card__tag">Audit &amp; expertise</span>
               <h3>Camoi Expertise</h3>
               <p>
@@ -53,7 +61,11 @@ export function GroupeCamoi() {
               </p>
             </div>
             <div className="entity-card entity-card--3 card-pattern">
-              <div className="entity-card__mark">CF</div>
+              <img
+                className="entity-card__logo"
+                src="/Logo.png"
+                alt="Logo CFP ASFIFO"
+              />
               <span className="entity-card__tag">Formation</span>
               <h3>CFP ASFIFO</h3>
               <p>
