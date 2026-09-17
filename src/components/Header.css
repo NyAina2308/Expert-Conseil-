@@ -60,6 +60,10 @@
   border-color: var(--teal);
 }
 
+.site-nav a.site-nav__cta:hover {
+  color: #fff;
+}
+
 .site-nav__cta {
   padding: 11px 22px;
   font-size: 14px;
